@@ -2,6 +2,8 @@
 marp: true
 theme: default
 class: invert
+paginate: true
+footer: Written by [@tachibanayu24](https://twitter.com/tachibanayu24)
 ---
 
 # 💌 Resend + React Emailで進化するメール送信機能の構成
@@ -69,12 +71,12 @@ React Emailのリポジトリにあるサンプルコードを見てみよう
 ### メール本文
 
 <style scoped>
-section { 
-    font-size: 28px; 
+section {
+    font-size: 26px;
 }
 
 pre {
-  font-size: 20px;
+  font-size: 18px;
 }
 </style>
 
@@ -140,3 +142,15 @@ ResendとReact Emailを利用してメール送信機能を構成する場合、
 - StorybookのようなUIによるメールのカタログ化と送信テスト
 
 ただしとても若いサービスなのでそこは留意して選定する必要があります。
+
+---
+<style scoped>
+section {
+    text-align: center;
+    font-size: 40px;
+}
+</style>
+# 💡
+
+今日話したスライドは、[こちらの記事](https://doc.tachibanayu24.com/LDTVSW)をもとに、ChatGPTに要約してもらったものです。  
+記事の方により詳細な内容を記述しています。
