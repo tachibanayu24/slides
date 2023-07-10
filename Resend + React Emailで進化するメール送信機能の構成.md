@@ -13,7 +13,7 @@ section {
 </style>
 
 2023.07.12
-tatti
+tatti ([@tachibanayu24](https://twitter.com/tachibanayu24))
 
 ---
 
@@ -39,6 +39,13 @@ tatti
   - Y Combinatorからシード調達
   - 創業メンバーはWorkOSのコア開発メンバー
 - Resend(サービス)は、スパムリストに入れられた場合はすぐに通知、容易に構築可能、大規模トランザクションに対応するスケーラビリティなどの特徴がある
+- シンプルなダッシュボード([demo](https://resend.com/overview))
+
+---
+
+## 💸 Resendのプラン
+
+![h:600](https://firebasestorage.googleapis.com/v0/b/orenotion.appspot.com/o/pages%2FScreenshot%202023-07-09%20at%2019.05.48.png?alt=media&token=1e4474d4-6224-4c4e-9038-cfcf6f1c5cca)
 
 ---
 
@@ -46,6 +53,8 @@ tatti
 
 - React EmailはReactベースでメール本文などを構成できるOSSで、Resendのメンバーが開発(まだベータ版)
 - ButtonやLinkなどのコンポーネントが用意されており、これにstyleを当てて構築
+- render APIでReactをHTML文字列にパースできるので、サービス画面で「こういうメールが送信されますよ」とプレビューするのが用意
+- Reactなのでcssやレイアウトの共通化も当然できる
 - どのようなメールが送信されるかを一覧できるStorybookのようなカタログがビルトインされていてテスト送信も可能！
   - [sample](https://demo.react.email/preview/vercel-invite-user)
 
